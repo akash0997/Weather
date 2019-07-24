@@ -3,7 +3,7 @@ from ezw_model import WeatherReport
 from datetime import datetime,timedelta
 import requests, os, json
  
-DARK_SKY_API_KEY = os.environ['DARK_SKY_KEY']
+DARK_SKY_API_KEY = "a86bb34f4e6df9771f475cae96e47bb7"
 option_list = "exclude=currently,minutely,hourly,alerts&amp;units=si"
  
 class EZWRController:
